@@ -172,6 +172,9 @@
   }
 }
 @layer utilities {
+  .m-3 {
+    margin: calc(var(--spacing) * 3);
+  }
   .m-5 {
     margin: calc(var(--spacing) * 5);
   }
@@ -187,11 +190,29 @@
   .m-20 {
     margin: calc(var(--spacing) * 20);
   }
+  .m-30 {
+    margin: calc(var(--spacing) * 30);
+  }
+  .m-40 {
+    margin: calc(var(--spacing) * 40);
+  }
+  .m-150 {
+    margin: calc(var(--spacing) * 150);
+  }
+  .mr-20 {
+    margin-right: calc(var(--spacing) * 20);
+  }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
   .mb-15 {
     margin-bottom: calc(var(--spacing) * 15);
+  }
+  .ml-0 {
+    margin-left: 0px;
   }
   .ml-1 {
     margin-left: var(--spacing);
@@ -199,14 +220,59 @@
   .ml-1\.5 {
     margin-left: calc(var(--spacing) * 1.5);
   }
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
+  }
   .ml-7 {
     margin-left: calc(var(--spacing) * 7);
+  }
+  .ml-8 {
+    margin-left: calc(var(--spacing) * 8);
   }
   .ml-9 {
     margin-left: calc(var(--spacing) * 9);
   }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
+  }
   .ml-15 {
     margin-left: calc(var(--spacing) * 15);
+  }
+  .ml-20 {
+    margin-left: calc(var(--spacing) * 20);
+  }
+  .ml-30 {
+    margin-left: calc(var(--spacing) * 30);
+  }
+  .ml-40 {
+    margin-left: calc(var(--spacing) * 40);
+  }
+  .ml-50 {
+    margin-left: calc(var(--spacing) * 50);
+  }
+  .ml-60 {
+    margin-left: calc(var(--spacing) * 60);
+  }
+  .ml-70 {
+    margin-left: calc(var(--spacing) * 70);
+  }
+  .ml-90 {
+    margin-left: calc(var(--spacing) * 90);
+  }
+  .ml-97 {
+    margin-left: calc(var(--spacing) * 97);
+  }
+  .ml-100 {
+    margin-left: calc(var(--spacing) * 100);
+  }
+  .ml-105 {
+    margin-left: calc(var(--spacing) * 105);
+  }
+  .ml-130 {
+    margin-left: calc(var(--spacing) * 130);
+  }
+  .ml-150 {
+    margin-left: calc(var(--spacing) * 150);
   }
   .flex {
     display: flex;
@@ -222,6 +288,15 @@
   }
   .resize {
     resize: both;
+  }
+  .gap-0 {
+    gap: 0px;
+  }
+  .gap-10 {
+    gap: calc(var(--spacing) * 10);
+  }
+  .gap-30 {
+    gap: calc(var(--spacing) * 30);
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
