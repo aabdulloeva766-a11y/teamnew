@@ -172,6 +172,9 @@
   }
 }
 @layer utilities {
+  .m-2 {
+    margin: calc(var(--spacing) * 2);
+  }
   .m-3 {
     margin: calc(var(--spacing) * 3);
   }
@@ -186,6 +189,9 @@
   }
   .m-10 {
     margin: calc(var(--spacing) * 10);
+  }
+  .m-15 {
+    margin: calc(var(--spacing) * 15);
   }
   .m-20 {
     margin: calc(var(--spacing) * 20);
@@ -307,6 +313,9 @@
   }
   .bg-\[\#725a39\] {
     background-color: #725a39;
+  }
+  .bg-\[\#222220\] {
+    background-color: #222220;
   }
   .bg-\[\#846943\] {
     background-color: #846943;
