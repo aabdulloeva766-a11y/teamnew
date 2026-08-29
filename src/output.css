@@ -12,6 +12,8 @@
     --spacing: 0.25rem;
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
@@ -172,6 +174,9 @@
   }
 }
 @layer utilities {
+  .m-2 {
+    margin: calc(var(--spacing) * 2);
+  }
   .m-3 {
     margin: calc(var(--spacing) * 3);
   }
@@ -187,6 +192,9 @@
   .m-10 {
     margin: calc(var(--spacing) * 10);
   }
+  .m-15 {
+    margin: calc(var(--spacing) * 15);
+  }
   .m-20 {
     margin: calc(var(--spacing) * 20);
   }
@@ -198,6 +206,9 @@
   }
   .m-150 {
     margin: calc(var(--spacing) * 150);
+  }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
   }
   .mr-20 {
     margin-right: calc(var(--spacing) * 20);
@@ -256,6 +267,9 @@
   .ml-70 {
     margin-left: calc(var(--spacing) * 70);
   }
+  .ml-80 {
+    margin-left: calc(var(--spacing) * 80);
+  }
   .ml-90 {
     margin-left: calc(var(--spacing) * 90);
   }
@@ -267,6 +281,12 @@
   }
   .ml-105 {
     margin-left: calc(var(--spacing) * 105);
+  }
+  .ml-110 {
+    margin-left: calc(var(--spacing) * 110);
+  }
+  .ml-115 {
+    margin-left: calc(var(--spacing) * 115);
   }
   .ml-130 {
     margin-left: calc(var(--spacing) * 130);
@@ -305,8 +325,20 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[\#2d2921\] {
+    background-color: #2d2921;
+  }
   .bg-\[\#725a39\] {
     background-color: #725a39;
+  }
+  .bg-\[\#12100d\] {
+    background-color: #12100d;
+  }
+  .bg-\[\#181611\] {
+    background-color: #181611;
+  }
+  .bg-\[\#222220\] {
+    background-color: #222220;
   }
   .bg-\[\#846943\] {
     background-color: #846943;
@@ -332,11 +364,35 @@
   .bg-\[\#C1B098\] {
     background-color: #C1B098;
   }
+  .bg-\[\#\] {
+    background-color: #;
+  }
   .bg-\[\#d8912d\] {
     background-color: #d8912d;
   }
+  .bg-\[\#dbcfae\] {
+    background-color: #dbcfae;
+  }
+  .bg-\[\#dfd5bb\] {
+    background-color: #dfd5bb;
+  }
+  .bg-\[\#ece9e0\] {
+    background-color: #ece9e0;
+  }
+  .bg-\[\#efe1bc\] {
+    background-color: #efe1bc;
+  }
+  .bg-\[\#f2ead4\] {
+    background-color: #f2ead4;
+  }
+  .bg-\[\#f5efdc\] {
+    background-color: #f5efdc;
+  }
   .p-3 {
     padding: calc(var(--spacing) * 3);
+  }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
   }
   .p-10 {
     padding: calc(var(--spacing) * 10);
@@ -370,6 +426,10 @@
   }
   .font-\[Montserrat\] {
     font-family: Montserrat;
+  }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
   .text-3xl {
     font-size: var(--text-3xl);
